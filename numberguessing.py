@@ -9,5 +9,9 @@ while True:
     if number==ran:
         print("You have guessed right!")
         break
+    elif number>ran:
+        print("Guess lower")
+    elif number<ran:
+        print("Guess higher")
     else: 
         print("Please try again")
