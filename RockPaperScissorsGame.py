@@ -15,7 +15,9 @@ while True:
     elif choice==2 and ran==1 or choice==3 and ran==2:
         print("You win")
         rep= input("Do you want to continue(Y/N): ")
-        if rep.upper()=="N":
+        if rep.upper()=="Y":
+            pass
+        else: 
             break
     else:
         print("Please try again")
