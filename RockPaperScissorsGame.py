@@ -10,9 +10,9 @@ while True:
     print(game[choice-1], "vs", game[ran-1])
     if choice==ran:
         print("It's a tie")
-    elif choice==1 and ran==2 or choice==2 and ran==3:
+    elif choice==1 and ran==2 or choice==2 and ran==3 or choice==3 and ran==1:
         print("You lost")
-    elif choice==2 and ran==1 or choice==3 and ran==2:
+    elif choice==2 and ran==1 or choice==3 and ran==2 or choice==1 and ran==3:
         print("You win")
         rep= input("Do you want to continue(Y/N): ")
         if rep.upper()=="Y":
